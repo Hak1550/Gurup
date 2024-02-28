@@ -1,0 +1,11 @@
+{
+  "articles_button": "Create article",
+  "articles_heading": "Articles",
+  "articles_label": "Article name",
+  "articles_placeholder": "Enter the article name",
+  "articles_sub_heading": "Articles",
+  "create_articles_heading": "Create a new article\n",
+  "free_switcher": "Available to everyone",
+  "paid_switcher": "Available only to users on some pricing plans",
+  "tags_description": "Article tags"
+}

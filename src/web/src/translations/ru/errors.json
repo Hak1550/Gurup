@@ -1,0 +1,16 @@
+{
+  "ALREADY_REGISTERED": "Такой пользователь уже зарегистрирован",
+  "DATABASE_ERROR": "Ошибка сервера",
+  "EMPTY_MESSAGE": "Пустое сообщение",
+  "FILE_UPLOAD_REJECTED": "Файл слишком большой",
+  "INFLUENCER_NOT_FOUND": "Блоггер не найден",
+  "PASSWORDS_NOT_MATCHING": "Пароли не совпадают",
+  "PERMISSION_DENIED": "Недостаточно прав",
+  "SIGN_EMAIL_BUSY": "Email занят",
+  "SIGN_USER_NOT_VALIDATED": "Проверьте email",
+  "SIGN_USER_TO_RECOVERY_NOT_FOUND": "Пользователь не найден",
+  "USERNAME_EXIST": "Имя пользователя занято",
+  "USER_EMAIL_EXIST": "Email занят",
+  "WRONG_ANSWER": "Неверный ответ",
+  "WRONG_LOGIN": "Неверный логин или пароль"
+}

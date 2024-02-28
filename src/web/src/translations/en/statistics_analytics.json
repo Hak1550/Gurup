@@ -1,0 +1,15 @@
+{
+  "balace_label": "Balance",
+  "balance_label": "Balance",
+  "chart_payments_label": "New payments",
+  "chart_payments_name": "payments",
+  "chart_payments_sum_label": "Revenue",
+  "chart_payments_sum_name": "sum",
+  "chart_users_label": "New users",
+  "chart_users_name": "users",
+  "revenue_label": "Total revenue",
+  "stat_description": "Learn more about your audience engagement & profits.",
+  "stat_heading": "Statistics & Analytics",
+  "time_period": "Choose a time period",
+  "users_label": "Total users"
+}

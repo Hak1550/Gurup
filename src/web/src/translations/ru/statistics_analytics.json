@@ -1,0 +1,15 @@
+{
+  "balace_label": "На балансе",
+  "balance_label": "На балансе",
+  "chart_payments_label": "Количество платежей",
+  "chart_payments_name": "Платежей",
+  "chart_payments_sum_label": "Оборот",
+  "chart_payments_sum_name": "Оборот",
+  "chart_users_label": "Новые пользователи",
+  "chart_users_name": "пользователи",
+  "revenue_label": "Выручка",
+  "stat_description": "Отслеживайте вовлеченность аудитории и доходы",
+  "stat_heading": "Статистика и аналитика",
+  "time_period": "Выберите временной диапазон",
+  "users_label": "Всего пользователей"
+}

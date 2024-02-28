@@ -1,0 +1,23 @@
+{
+  "export": "Экспорт",
+  "import": "Импорт",
+  "import_csv": "Импорт",
+  "import_exclude_field": "Не импортировать",
+  "import_modal_description": "1. Экспортируйте csv файл с пользователями из вашей текущей онлайн-школы\n2. Загрузите csv файл здесь\n3. Выберите, какие поля импортировать и куда",
+  "import_modal_title": "Импорт пользователей",
+  "import_users_number": "Будет импортировано:",
+  "modal_title": "Информация",
+  "upload_csv": "Загрузите csv файл с данными о пользователях",
+  "uploading_text": "Загружаем",
+  "users_city": "Город",
+  "users_description": "Здесь отображены все ваши подписчики в Gurucan.",
+  "users_email": "Email",
+  "users_heading": "Пользователи",
+  "users_name": "Имя",
+  "users_phone": "Телефон",
+  "users_plan": "Тариф",
+  "users_purchased": "Куплено",
+  "users_signup_date": "Дата регистрации",
+  "users_status": "Статус",
+  "without_plan": "Без тарифа"
+}

@@ -1,0 +1,16 @@
+{
+  "ALREADY_REGISTERED": "This user is already registered",
+  "DATABASE_ERROR": "Database error has occured",
+  "EMPTY_MESSAGE": "You can't send empty messages",
+  "FILE_UPLOAD_REJECTED": "File was rejected.Please upload another file, it's size can be less than 10mb",
+  "INFLUENCER_NOT_FOUND": "School not found. Please check the domain name",
+  "PASSWORDS_NOT_MATCHING": "Password does not match the confirm password",
+  "PERMISSION_DENIED": "You don't have enough permissions to perform this action",
+  "SIGN_EMAIL_BUSY": "Email is busy",
+  "SIGN_USER_NOT_VALIDATED": "You are not validated user, check your email address",
+  "SIGN_USER_TO_RECOVERY_NOT_FOUND": "The user you try to recover not found",
+  "USERNAME_EXIST": "Username busy",
+  "USER_EMAIL_EXIST": "Email busy",
+  "WRONG_ANSWER": "Wrong answer.",
+  "WRONG_LOGIN": "Username or password incorrect"
+}

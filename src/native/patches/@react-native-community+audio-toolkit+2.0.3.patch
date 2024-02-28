@@ -1,0 +1,63 @@
+diff --git a/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioPlayer.m b/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioPlayer.m
+index ec74835..d240560 100644
+--- a/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioPlayer.m
++++ b/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioPlayer.m
+@@ -18,6 +18,24 @@
+ #import <AVFoundation/AVPlayerItem.h>
+ #import <AVFoundation/AVAsset.h>
+ 
++// import RCTBridge
++#if __has_include(<React/RCTBridge.h>)
++#import <React/RCTBridge.h>
++#elif __has_include(“RCTBridge.h”)
++#import “RCTBridge.h”
++#else
++#import “React/RCTBridge.h” // Required when used as a Pod in a Swift project
++#endif
++
++// import RCTEventDispatcher
++#if __has_include(<React/RCTEventDispatcher.h>)
++#import <React/RCTEventDispatcher.h>
++#elif __has_include(“RCTEventDispatcher.h”)
++#import “RCTEventDispatcher.h”
++#else
++#import “React/RCTEventDispatcher.h” // Required when used as a Pod in a Swift project
++#endif
++
+ 
+ @interface AudioPlayer ()
+ 
+diff --git a/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioRecorder.m b/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioRecorder.m
+index 80d71e8..3bfe50b 100644
+--- a/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioRecorder.m
++++ b/node_modules/@react-native-community/audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit/AudioRecorder.m
+@@ -9,10 +9,28 @@
+ //  Licensed under the MIT license. For more information, see LICENSE.
+ 
+ #import "AudioRecorder.h"
+-#import "RCTEventDispatcher.h"
++//#import "RCTEventDispatcher.h"
+ //#import "RCTEventEmitter"
+ #import "Helpers.h"
+ 
++// import RCTBridge
++#if __has_include(<React/RCTBridge.h>)
++#import <React/RCTBridge.h>
++#elif __has_include(“RCTBridge.h”)
++#import “RCTBridge.h”
++#else
++#import “React/RCTBridge.h” // Required when used as a Pod in a Swift project
++#endif
++
++// import RCTEventDispatcher
++#if __has_include(<React/RCTEventDispatcher.h>)
++#import <React/RCTEventDispatcher.h>
++#elif __has_include(“RCTEventDispatcher.h”)
++#import “RCTEventDispatcher.h”
++#else
++#import “React/RCTEventDispatcher.h” // Required when used as a Pod in a Swift project
++#endif
++
+ @import AVFoundation;
+ 
+ @interface AudioRecorder () <AVAudioRecorderDelegate>

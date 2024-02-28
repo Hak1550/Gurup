@@ -1,0 +1,18 @@
+{
+  "app_marathon_status_done": "Exercise completed and checked",
+  "app_marathon_status_failed": "Report failed. Please submit a new one",
+  "app_marathon_status_in_review": "Report in review",
+  "app_marathon_status_waiting": "Report in review",
+  "day": "Day",
+  "day_rest_text": "Today is your day of rest, come back tomorrow!",
+  "day_rest_title": "Day of rest",
+  "discuss_in_chat": "Discuss in a chat",
+  "done": "Done",
+  "finish": "Finish",
+  "marathon_heading": "Challenges",
+  "no_marathon": "No active challenges",
+  "report_input_placeholder": "Enter your answer",
+  "report_sent": "Report sent",
+  "send_report": "Send a report",
+  "too_early": "Exercise is not available yet, come back later"
+}

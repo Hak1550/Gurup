@@ -1,0 +1,16 @@
+{
+  "buy_button": "Купить за {{price}}{{currency}}",
+  "buy_description": "Цена указана за 15 минутный чат",
+  "chat_finished": "Чат завершен",
+  "chats_heading": "Чат",
+  "influencer": "Мы",
+  "message_placeholder_text": "Сообщение...",
+  "no_message_text": "Начните чат",
+  "no_message_title": "У вас ещё нет сообщений",
+  "no_time_left": "Время вышло",
+  "offline": "оффлайн",
+  "online": "онлайн",
+  "private_chat": "Чат тет-а-тет",
+  "start_private_chat": "Начать тет-а-тет чат",
+  "time_left": "Осталось: "
+}

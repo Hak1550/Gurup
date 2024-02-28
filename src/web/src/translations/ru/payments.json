@@ -1,0 +1,11 @@
+{
+  "pay_amount": "Цена",
+  "pay_date": "Дата",
+  "pay_gateway": "Источник",
+  "pay_status": "Статус",
+  "pay_user_email": "Email",
+  "pay_user_name": "Имя",
+  "pay_user_phone": "Телефон",
+  "payments_description": "Все платежи пользователей",
+  "payments_heading": "Оплата"
+}

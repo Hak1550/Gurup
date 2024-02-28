@@ -1,0 +1,12 @@
+{
+	"NSCalendarsUsageDescription":"Allow Gurucan to access your calendar",
+	"NSCameraUsageDescription":"Allow Gurucan to use your camera",
+	"NSContactsUsageDescription":"Allow Gurucan to access your contacts",
+	"NSLocationWhenInUseUsageDescription":"Allow Gurucan to use your location",
+	"NSMicrophoneUsageDescription":"Allow Gurucan to access your microphone",
+	"NSMotionUsageDescription":"Allow Gurucan to access your device's accelerometer",
+	"NSPhotoLibraryAddUsageDescription":"Give Gurucan permission to save photos",
+	"NSPhotoLibraryUsageDescription":"Give Gurucan permission to access your photos",
+	"NSRemindersUsageDescription":"Allow Gurucan to access your reminders",
+	"NSLocationAlwaysUsageDescription":"Allow gurucan access to your location to improve experience"
+}

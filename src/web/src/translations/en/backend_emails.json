@@ -1,0 +1,10 @@
+{
+  "payment_admin_subject": "Payment created",
+  "payment_admin_text": "Payment for {{name}} with total {{price}}{{currency}} created.",
+  "payment_processed_admin_subject": "Payment processed!",
+  "payment_processed_admin_text": "Payment for {{name}} with total {{price}}{{currency}} processed. Contact details: {{phone}} {{email}}",
+  "payment_processed_user_subject": "Payment processed",
+  "payment_processed_user_text": "Your payment with total {{price}}{{currency}} is processed.",
+  "signup_subject": "Welcome to GURUCAN",
+  "signup_text": "Welcome to Gurucan!\n\nYour login is: {{email}}\nYour password is: {{password}}"
+}

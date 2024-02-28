@@ -1,0 +1,23 @@
+{
+  "accel_shop": "Билеты и апгрейды",
+  "camera_button": "Камера",
+  "cancel_button": "Закрыть",
+  "change_password": "Изменить пароль",
+  "choose_file_button": "Выберите файл",
+  "choose_language": "Выберите язык",
+  "file_picker_title": "Хотите открыть камеру или галерею?",
+  "gallery_button": "Галерея",
+  "go_back_button": "Назад",
+  "have_problems": "Нужна помощь?",
+  "logout": "Выйти",
+  "new_password_placeholder": "Введите новый пароль",
+  "new_password_repeat_placeholder": "Повторите новый пароль",
+  "next_lesson": "Следующий урок",
+  "powered": "Работает на GURUCAN",
+  "powered_link": "https://gurucan.ru?utm_source=app&utm_medium=accel",
+  "privacy_policy": "Политика конфиденциальности",
+  "save_button": "Сохранить",
+  "terms_of_use": "Пользовательское соглашение",
+  "to_complete": "Завершить",
+  "upgrade": "Апгрейд"
+}

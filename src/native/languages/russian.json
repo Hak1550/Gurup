@@ -1,0 +1,13 @@
+{
+	"NSCalendarsUsageDescription":"Пожалуйста предоставьте Gurucan доступ к календарю",
+	"NSCameraUsageDescription":"Пожалуйста предоставьте Gurucan доступ к камере для прикрепления фото в чате",
+	"NSContactsUsageDescription":"Пожалуйста предоставьте Gurucan доступ к контактам",
+	"NSLocationWhenInUseUsageDescription":"Пожалуйста предоставьте Gurucan доступ к вашему местоположению",
+	"NSMicrophoneUsageDescription":"Пожалуйста предоставьте Gurucan доступ к микрофону",
+	"NSMotionUsageDescription":"Пожалуйста предоставьте Gurucan доступ к аккселерометру",
+	"NSPhotoLibraryAddUsageDescription":"Пожалуйста предоставьте Gurucan возможность сохранять фото",
+	"NSPhotoLibraryUsageDescription":"Пожалуйста предоставьте Gurucan доступ к фотографии для прикрепления фото к сообщениям",
+	"NSRemindersUsageDescription":"Пожалуйста предоставьте Gurucan доступ к уведомлениям",
+	"NSLocationAlwaysUsageDescription":"Пожалуйста предоставьте Gurucan доступ к местоположению"
+}
+

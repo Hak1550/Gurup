@@ -1,0 +1,26 @@
+diff --git a/node_modules/expo-error-recovery/android/build.gradle b/node_modules/expo-error-recovery/android/build.gradle
+index 320b165..617e59b 100644
+--- a/node_modules/expo-error-recovery/android/build.gradle
++++ b/node_modules/expo-error-recovery/android/build.gradle
+@@ -27,20 +27,7 @@ task androidSourcesJar(type: Jar) {
+ }
+ 
+ afterEvaluate {
+-  publishing {
+-    publications {
+-      release(MavenPublication) {
+-        from components.release
+-        // Add additional sourcesJar to artifacts
+-        artifact(androidSourcesJar)
+-      }
+-    }
+-    repositories {
+-      maven {
+-        url = mavenLocal().url
+-      }
+-    }
+-  }
++  println("Dummy")
+ }
+ 
+ android {

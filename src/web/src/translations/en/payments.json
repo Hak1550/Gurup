@@ -1,0 +1,11 @@
+{
+  "pay_amount": "Amount",
+  "pay_date": "Date",
+  "pay_gateway": "Gateway",
+  "pay_status": "Status",
+  "pay_user_email": "Email",
+  "pay_user_name": "Name",
+  "pay_user_phone": "Phone",
+  "payments_description": "Incoming payments",
+  "payments_heading": "Payments"
+}

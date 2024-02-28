@@ -1,0 +1,10 @@
+{
+  "payment_admin_subject": "Платеж ожидает оплаты",
+  "payment_admin_text": "Платеж от {{name}} на сумму {{price}}{{currency}} ожидает оплаты.",
+  "payment_processed_admin_subject": "Платеж выполнен",
+  "payment_processed_admin_text": "Создан платёж для {{name}}, на сумму {{price}}{{currency}}. Контактные данные: {{phone}} {{email}}",
+  "payment_processed_user_subject": "Платеж выполнен",
+  "payment_processed_user_text": "Ваш платеж на сумму {{price}}{{currency}} выполнен.",
+  "signup_subject": "Добро пожаловать в GURUCAN",
+  "signup_text": "Добро пожаловать в GURUCAN\n\nВаш логин - {{email}}\nВаш пароль - {{password}}"
+}

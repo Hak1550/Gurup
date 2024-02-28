@@ -1,0 +1,11 @@
+{
+  "articles_button": "Добавить статью",
+  "articles_heading": "Статьи",
+  "articles_label": "Название статьи",
+  "articles_placeholder": "Укажите название статьи здесь",
+  "articles_sub_heading": "Статьи",
+  "create_articles_heading": "Создать новую статью",
+  "free_switcher": "Доступно всем",
+  "paid_switcher": "Доступно только пользователям с определенным тарифом",
+  "tags_description": "Категории статьи"
+}

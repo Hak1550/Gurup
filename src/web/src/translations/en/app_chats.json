@@ -1,0 +1,16 @@
+{
+  "buy_button": "Purchase for {{price}}{{currency}}",
+  "buy_description": "The price is for 15 minutes of chatting",
+  "chat_finished": "Chat finished",
+  "chats_heading": "Chat",
+  "influencer": "School",
+  "message_placeholder_text": "Your message...",
+  "no_message_text": "Start your chat now",
+  "no_message_title": "You have no messages yet",
+  "no_time_left": "No time left",
+  "offline": "offline",
+  "online": "online",
+  "private_chat": "Private chat",
+  "start_private_chat": "Start a private chat",
+  "time_left": "Time left: "
+}

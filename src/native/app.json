@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "HustleApp",
+    "description": "This project is really great.",
+    "slug": "HustleApp",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "locales": {
+      "ru": "./languages/russian.json",
+      "en": "./languages/english.json"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/core/icon.png",
+    "splash": {
+      "image": "./assets/core/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 10,
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "assetBundlePatterns": [
+      "assets/*",
+      "assets/fonts/*",
+      "**/*"
+    ],
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.thehustleapp",
+      "usesIcloudStorage": true,
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.thehustleapp"
+    },
+    "packagerOpts": {
+      "projectRoots": "",
+      "config": "rn-cli.config.js"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "plugins": [
+    ]
+  }
+}

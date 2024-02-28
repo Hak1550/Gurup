@@ -1,0 +1,26 @@
+diff --git a/node_modules/expo-file-system/android/build.gradle b/node_modules/expo-file-system/android/build.gradle
+index daa978f..b7c635b 100644
+--- a/node_modules/expo-file-system/android/build.gradle
++++ b/node_modules/expo-file-system/android/build.gradle
+@@ -27,20 +27,7 @@ task androidSourcesJar(type: Jar) {
+ }
+ 
+ afterEvaluate {
+-  publishing {
+-    publications {
+-      release(MavenPublication) {
+-        from components.release
+-        // Add additional sourcesJar to artifacts
+-        artifact(androidSourcesJar)
+-      }
+-    }
+-    repositories {
+-      maven {
+-        url = mavenLocal().url
+-      }
+-    }
+-  }
++  println("Dummy")
+ }
+ 
+ android {

@@ -1,0 +1,23 @@
+{
+  "export": "Export",
+  "import": "Import",
+  "import_csv": "Import users",
+  "import_exclude_field": "Do not import",
+  "import_modal_description": "1. Prepare a csv file with your user base. If you are migrating from any other education platform then you can usually export your contact list on the \"Export\" page\n2. Upload it here\n3. Choose which fields to import and their categories",
+  "import_modal_title": "Import users",
+  "import_users_number": "Users to import:",
+  "modal_title": "User info",
+  "upload_csv": "Upload a csv file with user data",
+  "uploading_text": "Uploading",
+  "users_city": "City",
+  "users_description": "A list of your online course subscribers",
+  "users_email": "Email",
+  "users_heading": "Users",
+  "users_name": "Name",
+  "users_phone": "Phone",
+  "users_plan": "Plan",
+  "users_purchased": "Purchased content",
+  "users_signup_date": "Signup date",
+  "users_status": "Status",
+  "without_plan": "No plan"
+}

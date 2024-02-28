@@ -1,0 +1,18 @@
+{
+  "app_marathon_status_done": "Упражнение выполнено и проверено",
+  "app_marathon_status_failed": "Упражнение выполнено неверно. Оправьте новый отчет",
+  "app_marathon_status_in_review": "Отчет проверяется",
+  "app_marathon_status_waiting": "Отчет проверяется",
+  "day": "День",
+  "day_rest_text": "Сегодня день отдыха, возвращайся завтра!",
+  "day_rest_title": "День отдыха",
+  "discuss_in_chat": "Обсудить в чате",
+  "done": "Готово",
+  "finish": "Завершить",
+  "marathon_heading": "Марафон",
+  "no_marathon": "Нет активных марафонов",
+  "report_input_placeholder": "Напишите ответ",
+  "report_sent": "Отчет отправлен",
+  "send_report": "Отправьте отчет",
+  "too_early": "Упражнение пока недоступно"
+}

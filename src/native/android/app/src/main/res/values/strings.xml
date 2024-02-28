@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HustleApp</string>
+    <!-- <string name="facebook_app_id">1237746963403745</string>
+    <string name="fb_login_protocol_scheme">fb1237746963403745</string>
+    <string name="facebook_client_token">56789</string> -->
+    <string name="onesignal_notification_accent_color">FF9900</string>
+</resources>

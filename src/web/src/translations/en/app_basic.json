@@ -1,0 +1,23 @@
+{
+  "accel_shop": "Tickets and upgrades",
+  "camera_button": "Camera",
+  "cancel_button": "Cancel",
+  "change_password": "Change Password",
+  "choose_file_button": "Attach files",
+  "choose_language": "Choose language",
+  "file_picker_title": "Do you want to open a camera or gallery?",
+  "gallery_button": "Gallery",
+  "go_back_button": "Go back",
+  "have_problems": "Need help?",
+  "logout": "Logout",
+  "new_password_placeholder": "Enter a new password",
+  "new_password_repeat_placeholder": "Repeat new password",
+  "next_lesson": "Next Lesson",
+  "powered": "Powered by GURUCAN",
+  "powered_link": "https://gurucan.com?utm_source=app&utm_medium=accel",
+  "privacy_policy": "Privacy Policy",
+  "save_button": "Save",
+  "terms_of_use": "Terms of use",
+  "to_complete": "To complete",
+  "upgrade": "Upgrade"
+}

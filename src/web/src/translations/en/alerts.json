@@ -1,0 +1,14 @@
+{
+  "account_add-card_success": "Card successfully added!",
+  "account_plan_success": "Success! Welcome to Gurucan!",
+  "created": "Created",
+  "integraitios_sub_title": "Integrations",
+  "integrations_zapier_generate_key": "Api key",
+  "saved": "Saved",
+  "welcome_course": "Your first course is added successfully. Keep going!",
+  "welcome_install": "Thanks for installing your app. Enter your domain name and try out your content.",
+  "welcome_onepager": "Landing page is ready. Feel free to edit it at any time",
+  "welcome_payout": "Your payout settings are set.",
+  "welcome_pricing": "Your pricing settings are updated.",
+  "welcome_setup": "Your settings are updated. Move on!"
+}

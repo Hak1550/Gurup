@@ -1,0 +1,7 @@
+{
+  "broadcast_button": "Отправить сообщение",
+  "broadcast_description": "Отправляйте сообщения всем пользователям Вашего приложения через push уведомления",
+  "broadcast_heading": "Рассылка",
+  "message_input": "Введите текст",
+  "message_title": "Тема сообщения"
+}

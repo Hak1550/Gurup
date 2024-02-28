@@ -1,0 +1,28 @@
+<svg width="50" height="57" viewBox="0 0 50 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="24.7167" cy="31.5" rx="24.5981" ry="25.5" fill="#FAF8FF"/>
+<rect x="9" y="7" width="35" height="37" rx="4" fill="white"/>
+<rect x="9" y="7" width="35" height="37" rx="4" stroke="black" stroke-width="2"/>
+<rect x="9" y="7" width="35" height="37" rx="4" stroke="url(#paint0_linear)" stroke-width="2"/>
+<rect x="11" y="23" width="27" height="2" fill="#3E4859"/>
+<rect x="13" y="28" width="11" height="2" fill="#3E4859"/>
+<rect x="13" y="33" width="23" height="2" fill="#3E4859"/>
+<rect x="13" y="18" width="20" height="2" fill="#3E4859"/>
+<rect x="11" y="13" width="27" height="2" fill="#915EEE"/>
+<rect x="2" y="1" width="35" height="37" rx="4" fill="white" stroke="black" stroke-width="2"/>
+<rect x="6" y="17" width="27" height="2" fill="#3E4859"/>
+<rect x="6" y="22" width="11" height="2" fill="#3E4859"/>
+<rect x="6" y="27" width="23" height="2" fill="#3E4859"/>
+<rect x="6" y="12" width="20" height="2" fill="#3E4859"/>
+<rect x="6" y="7" width="27" height="2" fill="#915EEE"/>
+<rect x="6" y="7" width="27" height="2" fill="url(#paint1_linear)"/>
+<defs>
+<linearGradient id="paint0_linear" x1="15.6552" y1="9.81035" x2="40.9404" y2="38.0826" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF03A6"/>
+<stop offset="1" stop-color="#FF7144"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="11.5862" y1="7.1954" x2="11.7496" y2="9.79468" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF03A6"/>
+<stop offset="1" stop-color="#FF7144"/>
+</linearGradient>
+</defs>
+</svg>

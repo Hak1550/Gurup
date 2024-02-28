@@ -1,0 +1,52 @@
+{
+    "expo": {
+      "name": "${APP_NAME}",
+      "description": "This project is really great.",
+      "slug": "${INFLUENCER_NAME}",
+      "privacy": "public",
+      "sdkVersion": "35.0.0",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": {
+        "ru": "./languages/russian.json",
+        "en": "./languages/english.json"
+      },
+      "version": "${VERSION}",
+      "orientation": "portrait",
+      "icon": "./assets/custom/icon.png",
+      "splash": {
+        "image": "./assets/custom/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0,
+        "enabled": true,
+        "checkAutomatically": "ON_LOAD"
+      },
+      "assetBundlePatterns": [
+        "assets/*",
+        "assets/fonts/*",
+        "**/*"
+      ],
+      "ios": {
+        "bundleIdentifier": "com.gurucan.${INFLUENCER_NAME}",
+        "usesIcloudStorage": true,
+        "supportsTablet": false,
+        "publishBundlePath": "ios/gurucan/Supporting/shell-app.bundle",
+        "publishManifestPath": "ios/gurucan/Supporting/shell-app-manifest.json"
+      },
+      "android": {
+        "package": "com.gurucan.${INFLUENCER_NAME}",
+        "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+        "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+      },
+      "packagerOpts": {
+        "projectRoots": "",
+        "config": "rn-cli.config.js"
+      },
+      "scheme": "expefc524f22fc4446bbad299b781f421ed"
+    }
+}

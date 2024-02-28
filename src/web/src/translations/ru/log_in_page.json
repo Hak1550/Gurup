@@ -1,0 +1,13 @@
+{
+  "domain_label": "Домен",
+  "domain_placeholder": "domain",
+  "login_button": "Войти",
+  "login_label": "E-mail",
+  "login_placeholder": "Только латинские символы",
+  "no_account": "Нет аккаунта?",
+  "password_label": "Пароль",
+  "password_placeholder": "Минимум 6 символов",
+  "password_problem": "Забыли пароль?",
+  "welcome_description": "Для входа используйте e-mail и пароль GURUCAN. Если у Вас появились вопросы напишите нам.",
+  "welcome_heading": "Панель администратора GURUCAN"
+}

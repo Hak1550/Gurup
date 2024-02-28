@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712588176558",
+    "project_id": "hustle-app-af2a9",
+    "storage_bucket": "hustle-app-af2a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712588176558:android:eb2e8ec6c9d6ce8293113f",
+        "android_client_info": {
+          "package_name": "com.thehustleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712588176558-uplpp16vpi0ggst0s70de5b9nocse9ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz_6WgB-vaIt2rUuoin7_ycYctoKzUqYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712588176558-uplpp16vpi0ggst0s70de5b9nocse9ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

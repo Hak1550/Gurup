@@ -1,0 +1,22 @@
+{
+  "chat_create": "Создать чат",
+  "chat_delete": "Удалить чат",
+  "chat_empty": "У вас еще нет чатов",
+  "chat_heading": "Чаты",
+  "chat_input": "Напишите сообщение",
+  "chat_return": "Назад",
+  "chat_search_placeholder": "Поиск",
+  "chat_title_label": "Название чата",
+  "chat_title_placeholder": "Название вашего чата",
+  "chats_off_switcher": "Чаты тет-а-тет выключены",
+  "chats_on_switcher": "Чаты тет-а-тет включены",
+  "currency": "Валюта",
+  "free_switcher": "Доступен всем",
+  "offline_switcher": "Не в сети",
+  "online_switcher": "В сети",
+  "paid_switcher": "Доступен по подписке",
+  "price": "Стоимость",
+  "pricing_description": "Стоимость указана за 15 минутный чат",
+  "private_chat_heading": "Чаты тет-а-тет",
+  "private_chats_description": "Включите чаты тет-а-тет чтобы предоставлять 15-минутные платные консультации вашим пользователям"
+}

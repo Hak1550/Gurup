@@ -1,0 +1,43 @@
+diff --git a/node_modules/expo-linear-gradient/android/build.gradle b/node_modules/expo-linear-gradient/android/build.gradle
+index b075aac..eaefc18 100644
+--- a/node_modules/expo-linear-gradient/android/build.gradle
++++ b/node_modules/expo-linear-gradient/android/build.gradle
+@@ -26,22 +26,22 @@ task androidSourcesJar(type: Jar) {
+   from android.sourceSets.main.java.srcDirs
+ }
+ 
+-afterEvaluate {
+-  publishing {
+-    publications {
+-      release(MavenPublication) {
+-        from components.release
+-        // Add additional sourcesJar to artifacts
+-        artifact(androidSourcesJar)
+-      }
+-    }
+-    repositories {
+-      maven {
+-        url = mavenLocal().url
+-      }
+-    }
+-  }
+-}
++// afterEvaluate {
++//   publishing {
++//     publications {
++//       release(MavenPublication) {
++//         from components.release
++//         // Add additional sourcesJar to artifacts
++//         artifact(androidSourcesJar)
++//       }
++//     }
++//     repositories {
++//       maven {
++//         url = mavenLocal().url
++//       }
++//     }
++//   }
++// }
+ 
+ android {
+   compileSdkVersion safeExtGet("compileSdkVersion", 30)

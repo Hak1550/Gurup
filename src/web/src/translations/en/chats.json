@@ -1,0 +1,22 @@
+{
+  "chat_create": "Create chat",
+  "chat_delete": "Delete chat",
+  "chat_empty": "You don't have any chats yet.",
+  "chat_heading": "Chats",
+  "chat_input": "Write a message",
+  "chat_return": "Back",
+  "chat_search_placeholder": "Search chats",
+  "chat_title_label": "Chat title",
+  "chat_title_placeholder": "Your chat name",
+  "chats_off_switcher": "Private chats off",
+  "chats_on_switcher": "Private chats on",
+  "currency": "Currency",
+  "free_switcher": "Free",
+  "offline_switcher": "Offline",
+  "online_switcher": "Online",
+  "paid_switcher": "Paid",
+  "price": "Price",
+  "pricing_description": "Price for 15 minutes of chat",
+  "private_chat_heading": "Private chats",
+  "private_chats_description": "Enable private chats to add the possibility to provide paid 15-minute personal consultations to your subscribers"
+}

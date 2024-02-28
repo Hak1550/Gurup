@@ -1,0 +1,120 @@
+stages:
+  - unit_tests
+  - test_flight
+  - web_bundle
+
+
+
+
+web_bundle_staging:
+  tags:
+    - staging
+  stage: web_bundle
+  script:
+    - cd ~/gurucan
+    - git fetch origin
+    - git checkout $CI_COMMIT_REF_NAME
+    - git merge origin/$CI_COMMIT_REF_NAME
+    - cat "src/requester/config-staging.js" > src/requester/config.js
+    - cd src/web
+    - npm i
+    - npm run build
+    - rm -rf $BUNDLE_DIR/*
+    - cp -a build/. $BUNDLE_DIR
+# when: manual
+  only:
+    - staging
+  variables:
+    BUNDLE_DIR: "/home/www/gurucan-staging/web-bundles/core"
+    GIT_STRATEGY: none
+
+
+
+
+
+
+web_bundle_beta:
+  tags:
+    - staging
+  stage: web_bundle
+  script:
+    - cd ~/gurucan
+    - git fetch origin
+    - git checkout $CI_COMMIT_REF_NAME
+    - git merge origin/$CI_COMMIT_REF_NAME
+    - cat src/requester/config-beta.js > src/requester/config.js
+    - cd src/web
+    - npm i
+    - npm run build
+    - rm -rf $BUNDLE_DIR/*
+    - cp -a build/. $BUNDLE_DIR
+  #when: manual
+  only:
+    - master
+  variables:
+    BUNDLE_DIR: "/home/www/gurucan-beta/web-bundles/core"
+    GIT_STRATEGY: none
+
+
+
+
+
+web_bundle_production:
+  tags:
+    - staging
+  stage: web_bundle
+  script:
+    - cd ~/gurucan
+    - git fetch origin
+    - git checkout $CI_COMMIT_REF_NAME
+    - git merge origin/$CI_COMMIT_REF_NAME
+    - cat src/requester/config-production.js > src/requester/config.js
+    - cd src/web
+    - npm i
+    - npm run build
+    - rm -rf $BUNDLE_DIR/*
+    - cp -a build/. $BUNDLE_DIR
+  when: manual
+  only:
+    - master
+  variables:
+    BUNDLE_DIR: "/home/www/gurucan/web-bundles/core"
+    GIT_STRATEGY: none
+
+
+test_flight_build_all-in-one:
+  dependencies: []
+  stage: test_flight
+  variables:
+    GIT_STRATEGY: none
+  artifacts:
+    paths:
+      - fastlane/screenshots
+      - fastlane/logs
+  script:
+    - cd /Users/jedi/Documents/gurucan-all-32/ && gem install bundler && bundle install
+    - cd /Users/jedi/Documents/gurucan-all-32/src/native/ios && fastlane beta
+  tags:
+    - ios
+  when: manual
+  only:
+     - all-in-one-32
+
+
+google_beta_build_all-in-one:
+  dependencies: []
+  stage: test_flight
+  variables:
+    GIT_STRATEGY: none
+  artifacts:
+    paths:
+      - fastlane/screenshots
+      - fastlane/logs
+  script:
+    - cd /Users/jedi/Documents/gurucan-all-32/ && gem install bundler && bundle install
+    - cd /Users/jedi/Documents/gurucan-all-32/ && git checkout all-in-one-32 && git fetch origin && git merge origin/all-in-one-32 && cd src/native/android && fastlane beta
+  tags:
+    - ios
+  when: manual
+  only:
+     - all-in-one-32

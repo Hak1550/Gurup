@@ -1,0 +1,1 @@
+export {Image, AdvantagesContainer, Text} from './core'

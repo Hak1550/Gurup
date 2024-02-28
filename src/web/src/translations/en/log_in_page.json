@@ -1,0 +1,13 @@
+{
+  "domain_label": "Domain name",
+  "domain_placeholder": "domain",
+  "login_button": "Log in",
+  "login_label": "E-mail",
+  "login_placeholder": "Please use only Latin​ symbols",
+  "no_account": "Don't have an account?",
+  "password_label": "Password",
+  "password_placeholder": "Minimum 6 symbols",
+  "password_problem": "Forgot password?",
+  "welcome_description": "Please use GURUCAN e-mail & password. If you have some questions feel free to text us.",
+  "welcome_heading": "Welcome to the Admin Panel"
+}
